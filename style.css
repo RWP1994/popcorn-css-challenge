@@ -1,5 +1,114 @@
-/*COLORS:
+/* COLORS:
 Header background - #FFDBAA
-button - #805215
+Button - #805215
 Header Text - #553100
-Main background - #D4A76A*/
+Main background - #D4A76A
+*/
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #D4A76A;
+  color: #000;
+}
+
+.header {
+  background-color: #FFDBAA;
+  color: #553100;
+  text-align: center;
+  padding: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav button {
+  background-color: #805215;
+  color: #FFF;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+nav button:hover {
+  opacity: 0.9;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.feature {
+  background-color: #FFF;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+.feature h2 {
+  font-size: 1.5rem;
+}
+
+.feature p {
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+.feature button {
+  background-color: #805215;
+  color: #FFF;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.feature button:hover {
+  opacity: 0.9;
+}
+
+.about {
+  background-color: #FFF;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+  font-size: 1.5rem;
+}
+
+.about p {
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+.about button {
+  background-color: #805215;
+  color: #FFF;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.about button:hover {
+  opacity: 0.9;
+}
